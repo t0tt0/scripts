@@ -114,7 +114,7 @@ def selectTrans():
 						time.sleep(1)
 				print("quit two connections...")
 				#hyper1
-				ret2 = subprocess.Popen("python3 /Users/taoyuechen/go/src/github.com/HyperService-Consortium/go-ves/cmd/ves-client/playbook.py", shell=True, stdout=senderlogfile,stderr=senderlogfile, encoding="utf-8")
+				ret2 = subprocess.Popen("python3 /Users/taoyuechen/go/src/github.com/HyperService-Consortium1/go-ves/cmd/ves-client/playbook.py", shell=True, stdout=senderlogfile,stderr=senderlogfile, encoding="utf-8")
 				for x in range (0, 8, 1):
 					if ret2.poll() == 0:
 						print("success playbook, and commit")
@@ -138,7 +138,7 @@ def selectTrans():
 					else:
 						time.sleep(1)
 				#hyper1
-				ret2 = subprocess.Popen("python3 /Users/taoyuechen/go/src/github.com/HyperService-Consortium/go-ves/cmd/ves-client/playbook.py", shell=True, stdout=senderlogfile,stderr=senderlogfile, encoding="utf-8")
+				ret2 = subprocess.Popen("python3 /Users/taoyuechen/go/src/github.com/HyperService-Consortium1/go-ves/cmd/ves-client/playbook.py", shell=True, stdout=senderlogfile,stderr=senderlogfile, encoding="utf-8")
 				ret2.terminate()
 				# for x in range (0, 8, 1):
 				# 	if ret2.poll() == 0:

@@ -377,8 +377,6 @@ function worker (nonce) {
   //     log.consoleLog(workerId, "Contract deployment failed."));
 }
 
-
-//todo: hyperservice: web3, change to launching smart contracts..., write a script for gettointial, and send transactions to hyperservice; write a contract on hyperservice
 function main (argv) {
   args = require('minimist')(argv.slice(2))
   if (args['c'] !== undefined && !Array.isArray(args['c'])) {

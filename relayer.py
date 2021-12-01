@@ -34,7 +34,7 @@ def poster():
 				time.sleep(1)
 
 
-		ret = subprocess.Popen("python3 /Users/taoyuechen/go/src/github.com/HyperService-Consortium1/go-ves/cmd/ves-client/playbook.py", shell=True, stdout=posterlogfile,stderr=posterlogfile, encoding="utf-8")
+		ret = subprocess.Popen("python3 /Users/taoyuechen/go/src/github.com/relayer/go-ves/cmd/ves-client/playbook.py", shell=True, stdout=posterlogfile,stderr=posterlogfile, encoding="utf-8")
 		for x in range (0, 8, 1):
 			if ret.poll() == 0:
 				print("hhhhhhhhh success")

@@ -144,7 +144,7 @@ def selectTrans():
 # 						break;
 # 					else:
 # 						time.sleep(1)
-# 				# ret11 = subprocess.Popen("cd /Users/taoyuechen/go/src/github.com/HyperService-Consortium/go-ves/cmd/ves-client", shell=True)
+# 				# ret11 = subprocess.Popen("cd /Users/taoyuechen/go/src/github.com/HyperService-Consortium1/go-ves/cmd/ves-client", shell=True)
 # 				# time.sleep(1)
 # 				# ret11.terminate()
 # 				ret2 = subprocess.Popen("python3 relayer.py", shell=True)
@@ -199,7 +199,7 @@ def selectTrans():
 # 					else:
 # 						time.sleep(1)
 
-# 				ret1 = subprocess.Popen("python3 /Users/taoyuechen/go/src/github.com/HyperService-Consortium/go-ves/cmd/ves-client/playbook.py", shell=True, stdout=senderlogfile,stderr=senderlogfile, encoding="utf-8")
+# 				ret1 = subprocess.Popen("python3 /Users/taoyuechen/go/src/github.com/HyperService-Consortium1/go-ves/cmd/ves-client/playbook.py", shell=True, stdout=senderlogfile,stderr=senderlogfile, encoding="utf-8")
 # 				# ddl = datetime.now().Add(time.Millisecond * 800)
 # 				for x in range (0, 8, 1):
 # 					if ret1.poll() == 0:
